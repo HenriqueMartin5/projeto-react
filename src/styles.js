@@ -74,3 +74,9 @@ export const Trash = styled(FcEmptyTrash)`
 export const Check = styled(FcOk)`
     cursor: pointer;
 `
+
+export const NoItem = styled.h3`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`

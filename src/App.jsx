@@ -9,6 +9,7 @@ import {
   ListItem,
   Trash,
   Check,
+  NoItem
 } from "./styles.js";
 
 function App() {
@@ -55,7 +56,7 @@ function App() {
               </ListItem>
             ))
           ) : (
-            <h3>Não há itens na lista </h3>
+            <NoItem>Não há itens na lista </NoItem>
           )}
         </ul>
       </ToDoList>
